@@ -1,0 +1,86 @@
+.Main{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 260px;
+    left: 150px;
+}
+.line{
+    position: absolute;
+    margin: 0px;
+    height: 500px;
+    width:0px;
+    padding: 0;
+    border: solid;
+    top: 100px;
+    z-index: 50;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+#h_1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#h_2{
+    font-size: 2.5rem;
+    color: #5553B7;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    cursor: pointer;
+}
+.button_1{
+    background-color: #2DD35C;
+    border: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button_2{
+    background-color: white;
+    border-color: #5553B7;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    color: #5553B7;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.Shape_1{
+    top: 200px;
+    border: solid;
+    border-radius: 2rem 50rem 5rem 2rem  ;
+    border-color:#2DD35C;
+    height: 300px;
+    width: 1100px;
+    position: absolute;
+}
+.Shape_2{
+    z-index: 50;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    border: transparent;
+    border-radius: 50rem 3rem 3rem 3rem;
+    background-color: #5553B7;
+    height: 200px;
+    width: 700px;
+    opacity: 0.4;
+}
